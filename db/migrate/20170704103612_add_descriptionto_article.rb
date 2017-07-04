@@ -1,4 +1,4 @@
-class AddDescriptionToSrticles < ActiveRecord::Migration
+class AddDescriptiontoArticle < ActiveRecord::Migration
   def change
     add_column :articles, :description, :text
     add_column :articles, :created_at, :datetime
