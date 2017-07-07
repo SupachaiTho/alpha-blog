@@ -11,6 +11,11 @@
                 <li>
                     <%= pluralize(category.articles.count, "article") %>
                 </li>
+                <% if logged_in? and current_user.admin?%>
+                    <li>
+                        <span class="badge"><%= link_to "Edit Category Name", edit_category_path(category)%></span>
+                    </li>
+                <%end%>
             </div>
         </div>
     </ul>
