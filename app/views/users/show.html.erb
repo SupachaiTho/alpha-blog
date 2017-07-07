@@ -8,7 +8,7 @@
 <div class="center">
     <%= will_paginate @user_article%>
 </div>
-<%= render 'articles/article',obj: @user_article%>
+<%= render 'articles/article',obj: @user_article.order('created_at DESC')%>
 <div class="center">
     <%= will_paginate @user_article%>
 </div>
