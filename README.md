@@ -33,8 +33,8 @@ Article **many_to_many ** Category
 
 # Technologies
 
-- Ruby 2.2.3
-- Rails 4.2.6
+- Ruby 2.3.0
+- Rails 4.2.5
 - minitest - for automated tests
 - gem will_paginate 3.0.7
 - Skeleton CSS Boilerplate
